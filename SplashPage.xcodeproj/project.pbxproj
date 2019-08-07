@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE53797A22E78C32007D3F3E /* viewcontrollerlogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE53797922E78C32007D3F3E /* viewcontrollerlogin.swift */; };
+		E9837F0422FA657300B39A3C /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9837F0322FA657300B39A3C /* loginViewController.swift */; };
 		FE545D2022F1F0D400B27473 /* Req2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE545D1F22F1F0D400B27473 /* Req2ViewController.swift */; };
 		FE545D2222F2128D00B27473 /* Req3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE545D2122F2128D00B27473 /* Req3ViewController.swift */; };
 		FE545D2422F2184900B27473 /* Req4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE545D2322F2184900B27473 /* Req4ViewController.swift */; };
-		FE545D2822FA1EE500B27473 /* menuButtonsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE545D2722FA1EE500B27473 /* menuButtonsTableViewCell.swift */; };
 		FE545D2A22FA2F3700B27473 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE545D2922FA2F3700B27473 /* Default-568h@2x.png */; };
 		FE8B163322EA340B00B45679 /* RequirementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B163222EA340B00B45679 /* RequirementViewController.swift */; };
 		FEDCBCA022F1D81300C674C3 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDCBC9F22F1D81300C674C3 /* ViewController2.swift */; };
@@ -19,15 +18,13 @@
 		FEEC85A122DCC6C000925C79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC85A022DCC6C000925C79 /* AppDelegate.swift */; };
 		FEEC85A322DCC6C000925C79 /* viewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC85A222DCC6C000925C79 /* viewcontroller.swift */; };
 		FEEC85A622DCC6C000925C79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEEC85A422DCC6C000925C79 /* Main.storyboard */; };
-		FEEC85B322DCE00600925C79 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC85B222DCE00600925C79 /* loginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FE53797922E78C32007D3F3E /* viewcontrollerlogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewcontrollerlogin.swift; sourceTree = "<group>"; };
+		E9837F0322FA657300B39A3C /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		FE545D1F22F1F0D400B27473 /* Req2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Req2ViewController.swift; sourceTree = "<group>"; };
 		FE545D2122F2128D00B27473 /* Req3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Req3ViewController.swift; sourceTree = "<group>"; };
 		FE545D2322F2184900B27473 /* Req4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Req4ViewController.swift; sourceTree = "<group>"; };
-		FE545D2722FA1EE500B27473 /* menuButtonsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuButtonsTableViewCell.swift; sourceTree = "<group>"; };
 		FE545D2922FA2F3700B27473 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FE8B163222EA340B00B45679 /* RequirementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequirementViewController.swift; sourceTree = "<group>"; };
 		FEDCBC9F22F1D81300C674C3 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
@@ -37,7 +34,6 @@
 		FEEC85A222DCC6C000925C79 /* viewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewcontroller.swift; sourceTree = "<group>"; };
 		FEEC85A522DCC6C000925C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEEC85AC22DCC6C400925C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FEEC85B222DCE00600925C79 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,16 +69,14 @@
 			children = (
 				FEEC85A022DCC6C000925C79 /* AppDelegate.swift */,
 				FEEC85AC22DCC6C400925C79 /* Info.plist */,
-				FEEC85B222DCE00600925C79 /* loginViewController.swift */,
 				FE8B163222EA340B00B45679 /* RequirementViewController.swift */,
+				E9837F0322FA657300B39A3C /* loginViewController.swift */,
 				FE545D1F22F1F0D400B27473 /* Req2ViewController.swift */,
 				FE545D2122F2128D00B27473 /* Req3ViewController.swift */,
 				FE545D2322F2184900B27473 /* Req4ViewController.swift */,
 				FEEC85A222DCC6C000925C79 /* viewcontroller.swift */,
 				FEDCBC9F22F1D81300C674C3 /* ViewController2.swift */,
-				FE53797922E78C32007D3F3E /* viewcontrollerlogin.swift */,
 				FEEC85A422DCC6C000925C79 /* Main.storyboard */,
-				FE545D2722FA1EE500B27473 /* menuButtonsTableViewCell.swift */,
 				FEDCBCA122F1E9E900C674C3 /* Assets.xcassets */,
 			);
 			path = SplashPage;
@@ -160,14 +154,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEDCBCA022F1D81300C674C3 /* ViewController2.swift in Sources */,
-				FE53797A22E78C32007D3F3E /* viewcontrollerlogin.swift in Sources */,
-				FE545D2822FA1EE500B27473 /* menuButtonsTableViewCell.swift in Sources */,
 				FE8B163322EA340B00B45679 /* RequirementViewController.swift in Sources */,
 				FEEC85A322DCC6C000925C79 /* viewcontroller.swift in Sources */,
 				FEEC85A122DCC6C000925C79 /* AppDelegate.swift in Sources */,
+				E9837F0422FA657300B39A3C /* loginViewController.swift in Sources */,
 				FE545D2222F2128D00B27473 /* Req3ViewController.swift in Sources */,
 				FE545D2022F1F0D400B27473 /* Req2ViewController.swift in Sources */,
-				FEEC85B322DCE00600925C79 /* loginViewController.swift in Sources */,
 				FE545D2422F2184900B27473 /* Req4ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
