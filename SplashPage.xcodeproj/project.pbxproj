@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		E9837F0422FA657300B39A3C /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9837F0322FA657300B39A3C /* loginViewController.swift */; };
+		E9837F0622FA737A00B39A3C /* gettingaloanoptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9837F0522FA737A00B39A3C /* gettingaloanoptionViewController.swift */; };
+		E9837F0822FA73CF00B39A3C /* creatingaloanoptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9837F0722FA73CF00B39A3C /* creatingaloanoptionViewController.swift */; };
+		E9837F0E22FA872600B39A3C /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9837F0D22FA872500B39A3C /* user.swift */; };
 		FE545D2022F1F0D400B27473 /* Req2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE545D1F22F1F0D400B27473 /* Req2ViewController.swift */; };
 		FE545D2222F2128D00B27473 /* Req3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE545D2122F2128D00B27473 /* Req3ViewController.swift */; };
 		FE545D2422F2184900B27473 /* Req4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE545D2322F2184900B27473 /* Req4ViewController.swift */; };
@@ -22,6 +25,9 @@
 
 /* Begin PBXFileReference section */
 		E9837F0322FA657300B39A3C /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		E9837F0522FA737A00B39A3C /* gettingaloanoptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gettingaloanoptionViewController.swift; sourceTree = "<group>"; };
+		E9837F0722FA73CF00B39A3C /* creatingaloanoptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = creatingaloanoptionViewController.swift; sourceTree = "<group>"; };
+		E9837F0D22FA872500B39A3C /* user.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
 		FE545D1F22F1F0D400B27473 /* Req2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Req2ViewController.swift; sourceTree = "<group>"; };
 		FE545D2122F2128D00B27473 /* Req3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Req3ViewController.swift; sourceTree = "<group>"; };
 		FE545D2322F2184900B27473 /* Req4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Req4ViewController.swift; sourceTree = "<group>"; };
@@ -47,12 +53,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E9837F0922FA740E00B39A3C /* swift files */ = {
+			isa = PBXGroup;
+			children = (
+				E9837F0322FA657300B39A3C /* loginViewController.swift */,
+				FE545D1F22F1F0D400B27473 /* Req2ViewController.swift */,
+				FE8B163222EA340B00B45679 /* RequirementViewController.swift */,
+				FE545D2122F2128D00B27473 /* Req3ViewController.swift */,
+				FE545D2322F2184900B27473 /* Req4ViewController.swift */,
+				FEDCBC9F22F1D81300C674C3 /* ViewController2.swift */,
+				FEEC85A222DCC6C000925C79 /* viewcontroller.swift */,
+				E9837F0522FA737A00B39A3C /* gettingaloanoptionViewController.swift */,
+				E9837F0722FA73CF00B39A3C /* creatingaloanoptionViewController.swift */,
+			);
+			path = "swift files";
+			sourceTree = "<group>";
+		};
 		FEEC859422DCC6C000925C79 = {
 			isa = PBXGroup;
 			children = (
+				E9837F0922FA740E00B39A3C /* swift files */,
 				FE545D2922FA2F3700B27473 /* Default-568h@2x.png */,
 				FEEC859F22DCC6C000925C79 /* SplashPage */,
 				FEEC859E22DCC6C000925C79 /* Products */,
+				E9837F0D22FA872500B39A3C /* user.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,13 +93,6 @@
 			children = (
 				FEEC85A022DCC6C000925C79 /* AppDelegate.swift */,
 				FEEC85AC22DCC6C400925C79 /* Info.plist */,
-				FE8B163222EA340B00B45679 /* RequirementViewController.swift */,
-				E9837F0322FA657300B39A3C /* loginViewController.swift */,
-				FE545D1F22F1F0D400B27473 /* Req2ViewController.swift */,
-				FE545D2122F2128D00B27473 /* Req3ViewController.swift */,
-				FE545D2322F2184900B27473 /* Req4ViewController.swift */,
-				FEEC85A222DCC6C000925C79 /* viewcontroller.swift */,
-				FEDCBC9F22F1D81300C674C3 /* ViewController2.swift */,
 				FEEC85A422DCC6C000925C79 /* Main.storyboard */,
 				FEDCBCA122F1E9E900C674C3 /* Assets.xcassets */,
 			);
@@ -153,13 +170,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9837F0822FA73CF00B39A3C /* creatingaloanoptionViewController.swift in Sources */,
 				FEDCBCA022F1D81300C674C3 /* ViewController2.swift in Sources */,
 				FE8B163322EA340B00B45679 /* RequirementViewController.swift in Sources */,
 				FEEC85A322DCC6C000925C79 /* viewcontroller.swift in Sources */,
 				FEEC85A122DCC6C000925C79 /* AppDelegate.swift in Sources */,
 				E9837F0422FA657300B39A3C /* loginViewController.swift in Sources */,
 				FE545D2222F2128D00B27473 /* Req3ViewController.swift in Sources */,
+				E9837F0622FA737A00B39A3C /* gettingaloanoptionViewController.swift in Sources */,
 				FE545D2022F1F0D400B27473 /* Req2ViewController.swift in Sources */,
+				E9837F0E22FA872600B39A3C /* user.swift in Sources */,
 				FE545D2422F2184900B27473 /* Req4ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
